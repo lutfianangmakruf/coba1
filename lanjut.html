@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <!-- ini cara membuat form -->
+    <form action="" method="post">
+      <label for="name">Nama : </label>
+      <input id="name" type="text" /><br />
+      <label>Password : </label>
+      <input id="password" type="password" required /><br />
+
+      <!-- cara checkbox -->
+      <p>Apa makanan favorit kamu?</p>
+      <input type="checkbox" id="soto" name="makan" value="soto" />
+      <label for="soto">Soto</label><br />
+      <input type="checkbox" id="bakso" name="makan" value="bakso" />
+      <label for="bakso">Bakso</label><br />
+      <input type="checkbox" id="rawon" name="makan" value="rawon" />
+      <label for="rawon">Rawon</label><br />
+      <input type="checkbox" id="pecel" name="makan" value="pecel" />
+      <label for="pecel">Pecel</label><br />
+
+      <!-- cara radiobutton -->
+      <p>Apa bahasa yang kamu kuasai?</p>
+      <input type="radio" id="html" name="fav_lang" value="html" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_lang" value="css" />
+      <label for="css">CSS</label><br />
+      <input type="radio" id="php" name="fav_lang" value="php" />
+      <label for="php">PHP</label><br />
+
+      <p>Berapa usia kamu?</p>
+      <input type="number" min="10" /><br />
+      <input type="submit" value="Simpan" />
+
+      <!-- ini cara membuat dropdown -->
+      <p>Apa warna favorit kamu?</p>
+      <select>
+        <optgroup label="RGB">
+          <option>Red</option>
+          <option>Green</option>
+          <option>Blue</option>
+        </optgroup>
+        <optgroup label="CMYK">
+          <option>Cyan</option>
+          <option>Magenta</option>
+          <option>Yellow</option>
+          <option>Key</option>
+        </optgroup>
+      </select>
+    </form>
+    <br />
+
+    <!-- cara membuat fieldset -->
+    <fieldset>
+      <legend>Data Diri</legend>
+      <label for="nik">NIK : </label>
+      <input type="text" id="nik" name="data_diri" /><br />
+      <label for="sim">SIM : </label>
+      <input type="text" id="sim" name="data_diri" />
+    </fieldset>
+  </body>
+</html>
