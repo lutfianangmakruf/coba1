@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      input[type="number"] {
+        width: 50px;
+      }
+      input {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+      label {
+        display: inline-block;
+        vertical-align: middle;
+        width: 100px;
+        text-align: left;
+        margin-right: 10px;
+      }
+      .radio {
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Intruksi Medis</h1>
+    <label for="freq_hd">Frequensi HD</label>
+    <input type="radio" name="freq_hd" id="cito" />
+    <label for="cito" class="radio">Cito</label>
+    <input type="radio" name="freq_hd" id="inisiasi" />
+    <label for="inisiasi" class="radio">Inisiasi</label>
+    <input type="radio" name="freq_hd" id="1x" />
+    <label for="1x" class="radio">1x/Minggu</label>
+    <input type="radio" name="freq_hd" id="2x" />
+    <label for="2x" class="radio">2x/Minggu</label><br />
+    <label for="hd1">HD</label>
+    <input type="number" id="hd1" />jam <br />
+    <label for="qb1">QB</label>
+    <input type="number" id="qb1" /><br />
+    <label for="qd1">QD</label>
+    <input type="number" id="qd1" /><br />
+    <label for="uf1">UF</label>
+    <input type="number" id="uf1" /><br />
+
+    <h3>Profilling</h3>
+    <label for="na">Na</label>
+    <input type="number" id="na" /><br />
+    <label for="uf2">UF</label>
+    <input type="number" id="uf2" /><br />
+    <label for="bicarbonat">Bicarbonat</label>
+    <input type="number" id="bicarbonat" />
+
+    <h3>Heparin</h3>
+    <span class="gabung">
+      <input type="checkbox" name="heparin" />
+      <label for="awal">Awal</label>
+    </span>
+    <input type="number" />iu <br />
+    <span class="gabung">
+      <input type="checkbox" name="heparin" />
+      <label for="maintenance">Maintenance</label>
+    </span>
+    <input type="number" />iu/jam <br />
+    <span>
+      <input type="checkbox" name="heparin" />
+      <label for="tnp_hepatin">Tanpa Heparin</label><br />
+    </span>
+    <label for="lmwh">LMWH</label>
+    <input type="text" />
+
+    <h3>Dialiser</h3>
+    <input type="radio" name="dialiser" id="single" />
+    <label for="single">Single</label>
+    <select name="dialiser" id="single">
+      <option value="-" selected>-</option>
+      <option value="6">F 6 HPS</option>
+      <option value="7">F 7 HPS</option>
+      <option value="8">F 8 HPS</option>
+    </select>
+    <br />
+    <input type="radio" name="dialiser" id="reuse" />
+    <label for="reuse">Reuse</label>
+    <select name="dialiser" id="reuse">
+      <option value="-" selected>-</option>
+      <option value="6">F 6 HPS</option>
+      <option value="7">F 7 HPS</option>
+      <option value="8">F 8 HPS</option>
+    </select>
+    <br />
+    <label for="reuse_k">Reuse Ke</label>
+    <input type="number" id="reuse_k" /><br /><br />
+
+    <label for="akses_v">Akses Vaskuler</label>
+    <input type="radio" id="femoral" name="akses_v" />
+    <label for="femoral" class="radio">Femoral</label>
+    <input type="radio" id="dl_sub" name="akses_v" />
+    <label for="dl_sub" class="radio">DL Subclanvia</label>
+    <input type="radio" id="dl_femoral" name="akses_v" />
+    <label for="dl_femoral" class="radio">DL Femoral</label>
+    <input type="radio" id="av_shut" name="akses_v" />
+    <label for="av_shut" class="radio">AV Shut</label>
+    <input type="radio" id="a_bra" name="akses_v" />
+    <label for="a_bra" class="radio">A Brachialis</label>
+    <input type="radio" id="a_rad" name="akses_v" />
+    <label for="a_rad" class="radio">A Radialis</label>
+
+    <h3>Berat Badan</h3>
+    <label for="bb_yll">BB HD Yang Lalu</label>
+    <input type="number" id="bb_yll" />Kg<br />
+    <label for="bb_pre">BB Pre HD</label>
+    <input type="number" id="bb_pre" />Kg<br />
+    <label for="bb_post">BB Post HD</label>
+    <input type="number" id="bb_post" />Kg
+
+    <h3>Laboratorium</h3>
+    <label for="hb">HB</label>
+    <input type="number" id="hb" /><br />
+    <label for="hbsag">HbsAg</label>
+    <input type="number" id="hbsag" /><br />
+    <label for="b24">B24</label>
+    <input type="number" id="b24" />
+
+    <h3>Dialisat</h3>
+    <label for="bc">Bicarbonat</label>
+    <input type="number" id="bc" /><br />
+    <label for="con">Conductivity</label>
+    <input type="number" id="con" /><br />
+    <label for="temp">Temperature</label>
+    <input type="number" id="temp" />
+  </body>
+</html>

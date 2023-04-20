@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .container label {
+        margin-right: 10px;
+      }
+
+      .container input {
+        margin-bottom: 10px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .container {
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        .container label {
+          margin-right: 5px;
+          margin-bottom: 5px;
+        }
+
+        .container input {
+          margin-bottom: 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Profilling</h3>
+      <label for="na">Na</label>
+      <input type="number" id="na" />
+      <label for="uf2">UF</label>
+      <input type="number" id="uf2" />
+      <label for="bicarbonat">Bicarbonat</label>
+      <input type="number" id="bicarbonat" />
+    </div>
+  </body>
+</html>
