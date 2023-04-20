@@ -21,7 +21,7 @@ body {
   font-weight: bold;
   float: left;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #a9907e;
+  color: #159895;
 }
 
 .menu {
@@ -78,7 +78,7 @@ section {
   font-weight: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #675d50;
+  color: #002b5b;
 }
 
 h2 {
@@ -87,14 +87,14 @@ h2 {
   font-weight: 800px;
   font-size: 45px;
   margin-bottom: 20px;
-  color: #675d50;
+  color: #002b5b;
   width: 100%;
   line-height: 50px;
 }
 
 a.tbl-biru,
 a.tbl-pink {
-  background: #a9907e;
+  background: #57c5b6;
   border-radius: 20px;
   margin-top: 20px;
   padding: 15px 20px 15px 20px;
@@ -105,7 +105,7 @@ a.tbl-pink {
 
 a.tbl-biru:hover,
 a.tbl-pink:hover {
-  background: #abc4aa;
+  background: #1a5f7a;
   text-decoration: none;
 }
 
